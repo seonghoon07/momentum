@@ -1,10 +1,9 @@
-const daysOfWeek = ["mon","Tue","Wed","Thu","Fri","Sat"];
+function plus(firstnumber,secondnumber) {
+  console.log(firstnumber + secondnumber);
+}
+function devide(a,b) {
+  console.log(a/b);
+}
 
-
-// get item from Array
-console.log(daysOfWeek);
-
-// Add one more day to the Array
-daysOfWeek.push("sun");
-
-console.log(daysOfWeek);
+plus(80, 6);
+devide(98, 20);
