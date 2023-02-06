@@ -1,9 +1,15 @@
-function plus(firstnumber,secondnumber) {
-  console.log(firstnumber + secondnumber);
-}
-function devide(a,b) {
-  console.log(a/b);
+const calculater = {
+  add : function (a,b) {
+    console.log(a+b);
+  },
+  minus : function (a,b) {
+    console.log(a-b);
+  },
+  devide : function (a,b) {
+    console.log(a/b);
+  }
 }
 
-plus(80, 6);
-devide(98, 20);
+calculater.add(5,10);
+calculater.devide(5,10);
+calculater.minus(5,10);
