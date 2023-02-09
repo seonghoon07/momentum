@@ -1,15 +1,3 @@
-const calculater = {
-  add : function (a,b) {
-    console.log(a+b);
-  },
-  minus : function (a,b) {
-    console.log(a-b);
-  },
-  devide : function (a,b) {
-    console.log(a/b);
-  }
-}
+const age = parseInt(prompt("How old are you?")); 
 
-calculater.add(5,10);
-calculater.devide(5,10);
-calculater.minus(5,10);
+console.log(age);
